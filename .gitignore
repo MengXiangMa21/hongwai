@@ -1,0 +1,30 @@
+# 编译产物
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.dep
+*.lnp
+*.htm
+*.bak
+*.iex
+*.sct
+# Keil工程产物（保留 .uvprojx/.uvoptx）
+*.uvguix.*
+*.scvd
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+Objects/
+Listings/
+Debug/
+
+# 编辑器/工具
+.vscode/
